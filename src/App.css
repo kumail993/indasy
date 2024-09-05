@@ -1,0 +1,178 @@
+
+.navBar-container {
+    position: fixed;
+    top: 0;
+    margin: 0; 
+    z-index: 1000;
+}
+
+.main-container {
+    position: absolute;
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    max-width: 1300px;
+    margin: 0 auto; 
+}
+
+.navBar {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 20px;
+    left: 15%;
+    right: 15%;
+    z-index: 1000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 50px; 
+    width: auto;  
+    max-width: 100%; 
+}
+
+.navLinks {
+    margin-left: auto; 
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navLinks a:hover {
+    color: #84c441;
+}
+
+
+.btn {
+    gap: 5px;
+    background-color: #000000;
+    color: #FFFFFF;          
+    padding: 10px 20px;     
+    border: none;              
+    border-radius: 10px;       
+    cursor: pointer;           
+    font-size: 12px;         
+    font-weight: 500;          
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 20px; 
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #333333; 
+    color: #FFFFFF;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.hero-section {
+    padding: 0%;
+    display: flex;
+    height: 80vh;
+}
+
+.hero-button{
+    height: 100px;
+    width: 100px;
+    right: 45%;
+    bottom: 120px;
+    position: fixed;
+    color: #000000;
+    background-color: #000000;
+    border: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.hero-left {
+    background-color: #28a745;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-left h1 {
+    padding: 0 20% 0 20%;
+    font-size: 64px;
+    margin: 100;
+}
+
+.hero-left p {
+    padding: 0 20% 0 20%;
+    margin: 100;
+    font-size: 1.5rem;
+}
+
+.hero-right {
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa; 
+    overflow: hidden;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    background-color: #ff6f00; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 10;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+.circle1 {
+    width: 450px;
+    height: 450px;
+    top: 10%;
+    left: -5%;
+}
+
+.circle2 {
+    width: 800px;
+    height: 800px;
+    top: -5%;
+    left: -15%;
+}
+
+
